@@ -1,0 +1,73 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.content
+{
+    width: 100%;
+
+}
+
+
+.navbar
+{
+    position: static;
+    top: 0px;
+    color: #111;
+    padding: 1em;
+    background-color: #fff;
+}
+
+.navbar-container
+{
+    width: 85vw;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: arial;
+    font-size: 15px;
+}
+.navbar ul
+{
+    display: inline;
+}
+.navbar li
+{
+    list-style: none;
+    display: inline;
+    margin: 0px 10px;
+    cursor: pointer;
+
+}
+
+.navbar li:hover
+{
+    color: #ffc527;
+}
+
+.active
+{
+    color: #ffc527;
+}
+
+.button
+{
+    outline: none;
+    border: none;
+    padding: 10px;
+}
+
+.yellow
+{
+    background-color: #ffc527;
+    color: #111;
+    transition: 0.2s linear;
+}
+
+.yellow:hover
+{
+    background-color: #111;
+    color: #fff;
+}
